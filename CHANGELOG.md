@@ -1,5 +1,283 @@
 # ChangeLog
 
+<!--- generated changelog --->
+
+## [2025-10-02]
+
+### llama-index-core [0.14.4]
+
+- Update core/indices/base.py to remove depreciation warning ([#19990](https://github.com/run-llama/llama_index/pull/19990))
+
+### llama-index-embeddings-anyscale [0.4.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-embeddings-baseten [0.1.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-embeddings-fireworks [0.4.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-embeddings-opea [0.2.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-embeddings-text-embeddings-inference [0.4.2]
+
+- Fix authorization header setup logic in text embeddings inference ([#19979](https://github.com/run-llama/llama_index/pull/19979))
+
+### llama-index-llms-anthropic [0.9.3]
+
+- feat: add anthropic sonnet 4.5 ([#19977](https://github.com/run-llama/llama_index/pull/19977))
+
+### llama-index-llms-anyscale [0.4.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-llms-azure-openai [0.4.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-llms-baseten [0.1.5]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-llms-bedrock-converse [0.9.5]
+
+- feat: Additional support for Claude Sonnet 4.5 ([#19980](https://github.com/run-llama/llama_index/pull/19980))
+
+### llama-index-llms-deepinfra [0.5.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-llms-everlyai [0.4.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-llms-fireworks [0.4.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-llms-google-genai [0.6.2]
+
+- Fix for ValueError: ChatMessage contains multiple blocks, use 'ChatMe… ([#19954](https://github.com/run-llama/llama_index/pull/19954))
+
+### llama-index-llms-keywordsai [1.1.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-llms-localai [0.5.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-llms-mistralai [0.8.2]
+
+- Update list of MistralAI LLMs ([#19981](https://github.com/run-llama/llama_index/pull/19981))
+
+### llama-index-llms-monsterapi [0.4.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-llms-nvidia [0.4.4]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-llms-ollama [0.7.4]
+
+- Fix `TypeError: unhashable type: 'dict'` in Ollama stream chat with tools ([#19938](https://github.com/run-llama/llama_index/pull/19938))
+
+### llama-index-llms-openai [0.6.1]
+
+- feat(OpenAILike): support structured outputs ([#19967](https://github.com/run-llama/llama_index/pull/19967))
+
+### llama-index-llms-openai-like [0.5.3]
+
+- feat(OpenAILike): support structured outputs ([#19967](https://github.com/run-llama/llama_index/pull/19967))
+
+### llama-index-llms-openrouter [0.4.2]
+
+- chore(openrouter,anthropic): add py.typed ([#19966](https://github.com/run-llama/llama_index/pull/19966))
+
+### llama-index-llms-perplexity [0.4.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-llms-portkey [0.4.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-llms-sarvam [0.2.1]
+
+- fixed Sarvam Integration and Typos (Fixes #19931) ([#19932](https://github.com/run-llama/llama_index/pull/19932))
+
+### llama-index-llms-upstage [0.6.4]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-llms-yi [0.4.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-memory-bedrock-agentcore [0.1.0]
+
+- feat: Bedrock AgentCore Memory integration ([#19953](https://github.com/run-llama/llama_index/pull/19953))
+
+### llama-index-multi-modal-llms-openai [0.6.2]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-readers-confluence [0.4.4]
+
+- Fix: Respect cloud parameter when fetching child pages in ConfluenceR… ([#19983](https://github.com/run-llama/llama_index/pull/19983))
+
+### llama-index-readers-service-now [0.2.2]
+
+- Bug Fix :- Not Able to Fetch Page whose latest is empty or null ([#19916](https://github.com/run-llama/llama_index/pull/19916))
+
+### llama-index-selectors-notdiamond [0.4.0]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-tools-agentql [1.2.0]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-tools-playwright [0.3.1]
+
+- chore: fix playwright tests ([#19946](https://github.com/run-llama/llama_index/pull/19946))
+
+### llama-index-tools-scrapegraph [0.2.2]
+
+- feat: update scrapegraphai ([#19974](https://github.com/run-llama/llama_index/pull/19974))
+
+### llama-index-vector-stores-chroma [0.5.3]
+
+- docs: fix query method docstring in ChromaVectorStore Fixes #19969 ([#19973](https://github.com/run-llama/llama_index/pull/19973))
+
+### llama-index-vector-stores-mongodb [0.8.1]
+
+- fix llm deps for openai ([#19944](https://github.com/run-llama/llama_index/pull/19944))
+
+### llama-index-vector-stores-postgres [0.7.0]
+
+- fix index creation in postgres vector store ([#19955](https://github.com/run-llama/llama_index/pull/19955))
+
+### llama-index-vector-stores-solr [0.1.0]
+
+- Add ApacheSolrVectorStore Integration ([#19933](https://github.com/run-llama/llama_index/pull/19933))
+
+## [2025-09-24]
+
+### llama-index-core [0.14.3]
+
+- Fix Gemini thought signature serialization ([#19891](https://github.com/run-llama/llama_index/pull/19891))
+- Adding a ThinkingBlock among content blocks ([#19919](https://github.com/run-llama/llama_index/pull/19919))
+
+### llama-index-llms-anthropic [0.9.0]
+
+- Adding a ThinkingBlock among content blocks ([#19919](https://github.com/run-llama/llama_index/pull/19919))
+
+### llama-index-llms-baseten [0.1.4]
+
+- added kimik2 0905 and reordered list for validation ([#19892](https://github.com/run-llama/llama_index/pull/19892))
+- Baseten Dynamic Model APIs Validation ([#19893](https://github.com/run-llama/llama_index/pull/19893))
+
+### llama-index-llms-google-genai [0.6.0]
+
+- Add missing FileAPI support for documents ([#19897](https://github.com/run-llama/llama_index/pull/19897))
+- Adding a ThinkingBlock among content blocks ([#19919](https://github.com/run-llama/llama_index/pull/19919))
+
+### llama-index-llms-mistralai [0.8.0]
+
+- Adding a ThinkingBlock among content blocks ([#19919](https://github.com/run-llama/llama_index/pull/19919))
+
+### llama-index-llms-openai [0.6.0]
+
+- Adding a ThinkingBlock among content blocks ([#19919](https://github.com/run-llama/llama_index/pull/19919))
+
+### llama-index-protocols-ag-ui [0.2.2]
+
+- improve how state snapshotting works in AG-UI ([#19934](https://github.com/run-llama/llama_index/pull/19934))
+
+### llama-index-readers-mongodb [0.5.0]
+
+- Use PyMongo Asynchronous API instead of Motor ([#19875](https://github.com/run-llama/llama_index/pull/19875))
+
+### llama-index-readers-paddle-ocr [0.1.0]
+
+- [New Package] Add PaddleOCR Reader for extracting text from images in PDFs ([#19827](https://github.com/run-llama/llama_index/pull/19827))
+
+### llama-index-readers-web [0.5.4]
+
+- feat(readers/web-firecrawl): migrate to Firecrawl v2 SDK ([#19773](https://github.com/run-llama/llama_index/pull/19773))
+
+### llama-index-storage-chat-store-mongo [0.3.0]
+
+- Use PyMongo Asynchronous API instead of Motor ([#19875](https://github.com/run-llama/llama_index/pull/19875))
+
+### llama-index-storage-kvstore-mongodb [0.5.0]
+
+- Use PyMongo Asynchronous API instead of Motor ([#19875](https://github.com/run-llama/llama_index/pull/19875))
+
+### llama-index-tools-valyu [0.5.0]
+
+- Add Valyu Extractor and Fast mode ([#19915](https://github.com/run-llama/llama_index/pull/19915))
+
+### llama-index-vector-stores-azureaisearch [0.4.2]
+
+- Fix/llama index vector stores azureaisearch fix ([#19800](https://github.com/run-llama/llama_index/pull/19800))
+
+### llama-index-vector-stores-azurepostgresql [0.1.0]
+
+- Add support for Azure PostgreSQL ([#19709](https://github.com/run-llama/llama_index/pull/19709))
+
+### llama-index-vector-stores-qdrant [0.8.5]
+
+- Add proper compat for old sparse vectors ([#19882](https://github.com/run-llama/llama_index/pull/19882))
+
+### llama-index-vector-stores-singlestoredb [0.4.2]
+
+- Fix SQLi Vulnerability in SingleStore Db ([#19914](https://github.com/run-llama/llama_index/pull/19914))
+
+## [2025-09-15]
+
+### `llama-index-core` [0.14.2]
+
+- fix: handle data urls in ImageBlock (#19856)
+- fix: Move IngestionPipeline docstore document insertion after transformations (#19849)
+- fix: Update IngestionPipeline async document store insertion (#19868)
+- chore: remove stepwise usage of workflows from code (#19877)
+
+### `llama-index-embeddings-fastembed` [0.5.0]
+
+- feat: make fastembed cpu or gpu optional (#19878)
+
+### `llama-index-llms-deepseek` [0.2.2]
+
+- feat: pass context_window to super in deepseek llm (#19876)
+
+### `llama-index-llms-google-genai` [0.5.0]
+
+- feat: Add GoogleGenAI FileAPI support for large files (#19853)
+
+### `llama-index-readers-solr` [0.1.0]
+
+- feat: Add Solr reader integration (#19843)
+
+### `llama-index-retrievers-alletra-x10000-retriever` [0.1.0]
+
+- feat: add AlletraX10000Retriever integration (#19798)
+
+### `llama-index-vector-stores-oracledb` [0.3.2]
+
+- feat: OraLlamaVS Connection Pool Support + Filtering (#19412)
+
+### `llama-index-vector-stores-postgres` [0.6.8]
+
+- feat: Add `customize_query_fn` to PGVectorStore (#19847)
+
 ## [2025-09-14]
 
 ### `llama-index-core` [0.14.1]
